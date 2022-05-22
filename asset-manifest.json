@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/github.io/static/css/main.f5497eb8.chunk.css",
+    "main.js": "/github.io/static/js/main.728f26e2.chunk.js",
+    "main.js.map": "/github.io/static/js/main.728f26e2.chunk.js.map",
+    "runtime-main.js": "/github.io/static/js/runtime-main.b8dbcf2c.js",
+    "runtime-main.js.map": "/github.io/static/js/runtime-main.b8dbcf2c.js.map",
+    "static/js/2.b86c7e36.chunk.js": "/github.io/static/js/2.b86c7e36.chunk.js",
+    "static/js/2.b86c7e36.chunk.js.map": "/github.io/static/js/2.b86c7e36.chunk.js.map",
+    "index.html": "/github.io/index.html",
+    "precache-manifest.8ddcebda1905aa83bd270f02e43c58cc.js": "/github.io/precache-manifest.8ddcebda1905aa83bd270f02e43c58cc.js",
+    "service-worker.js": "/github.io/service-worker.js",
+    "static/css/main.f5497eb8.chunk.css.map": "/github.io/static/css/main.f5497eb8.chunk.css.map",
+    "static/js/2.b86c7e36.chunk.js.LICENSE.txt": "/github.io/static/js/2.b86c7e36.chunk.js.LICENSE.txt",
+    "static/media/IMG-20210909-WA0000.jpg": "/github.io/static/media/IMG-20210909-WA0000.f2d0fcaf.jpg",
+    "static/media/cv_niels_minssen.png": "/github.io/static/media/cv_niels_minssen.a6c96c39.png",
+    "static/media/hashirshoaeb.png": "/github.io/static/media/hashirshoaeb.32f6b574.png",
+    "static/media/resume.pdf": "/github.io/static/media/resume.9d3da0e2.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8dbcf2c.js",
+    "static/js/2.b86c7e36.chunk.js",
+    "static/css/main.f5497eb8.chunk.css",
+    "static/js/main.728f26e2.chunk.js"
+  ]
+}
