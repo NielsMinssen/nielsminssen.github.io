@@ -5,6 +5,8 @@
   border: solid 1px $buttonColor;
   color: #fff;
   font-weight: 500;
+  font-family: "Inter", sans-serif;
+  line-height: 1.4;
   width: max-content;
   padding: 12px 24px;
   margin-right: 50px;
@@ -16,6 +18,7 @@
   font-size: 0.938rem;
   cursor: pointer;
   transition: background-color 0.2s ease, border-color 0.2s ease;
+  box-sizing: border-box;
 }
 .main-button:hover {
   background-color: $buttonHover;

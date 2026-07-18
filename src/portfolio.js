@@ -47,73 +47,71 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Data Scientist/Engineer with a hand on this tool palette",
+  subTitle: "Data Scientist / Developer with a hand on this tool palette",
   skills: [
-    emoji(
-      "📊 Discover insights from Data"
-    ),
-    emoji("🤖 Develop machine learning models to better the decision making thanks to accurate predictions"),
-    emoji(
-      "💾 Create and fill Databases as well as managing Data pipelines"
-    )
+    "Build and deploy machine learning models for scoring, prediction and NLP",
+    "Design data pipelines and integrate AI (LLM, RAG) into business applications",
+    "Create dashboards and BI tools to support data-driven decisions"
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database",
-      color: "#000000"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python" ,
-      color:"#f9f06b"
-    },
-    {
-      skillName: "TensorFlow",
-      fontAwesomeClassname: "fab fa-docker",
-      color:"#FF8400"
-    },
-    {
-      skillName: "Apache Hadoop",
-      fontAwesomeClassname: "fas fa-republican",
-      color:"#63C6F7"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python",
+      color: "#1a365d"
     },
     {
       skillName: "R",
       fontAwesomeClassname: "fab fa-r-project",
-      color:"#1C68BB"
+      color: "#1a365d"
     },
     {
-      skillName: "Tableau",
-      fontAwesomeClassname: "fas fa-table",
-      color:"#f9f06b"
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database",
+      color: "#1a365d"
     },
     {
-      skillName: "SAS",
-      fontAwesomeClassname: "fab fa-stripe-s",
-      color:"#0083CD"
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker",
+      color: "#1a365d"
     },
     {
-      skillName: "Apache Spark",
-      fontAwesomeClassname: "fas fa-star",
-      color:"#F3BDA6"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt",
+      color: "#1a365d"
+    },
+{
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux",
+      color: "#1a365d"
     },
     {
-      skillName: "Apache Kafka",
-      fontAwesomeClassname: "fas fa-network-wired",
-      color:"#000000"
+      skillName: "Spark",
+      fontAwesomeClassname: "fas fa-bolt",
+      color: "#1a365d"
+    },
+{
+      skillName: "Vue.js",
+      fontAwesomeClassname: "fab fa-vuejs",
+      color: "#1a365d"
     },
     {
-      skillName: "Power BI",
-      fontAwesomeClassname: "fas fa-chart-pie",
-      color:"#f9f06b"
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php",
+      color: "#1a365d"
+    },
+    {
+      skillName: "BI / Dashboards",
+      fontAwesomeClassname: "fas fa-chart-bar",
+      color: "#1a365d"
+    },
+    {
+      skillName: "AI / LLM",
+      fontAwesomeClassname: "fas fa-brain",
+      color: "#1a365d"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 const servicesSection = {
@@ -172,7 +170,7 @@ const workExperiences = {
     {
       role: "Data Scientist et Développeur Logiciel",
       company: "Credit Agricole du Morbihan",
-      companylogo: require("./assets/images/camorbihan.png"),
+      companylogo: require("./assets/images/CA.png"),
       date: "April 2025 - Present",
       desc: "VANNES, BRETAGNE, FRANCE",
       descBullets: [
@@ -195,7 +193,7 @@ const workExperiences = {
     {
       role: "Data Scientist/Engineer",
       company: "Credit Agricole Centre France",
-      companylogo: require("./assets/images/cacentrefrance.jpg"),
+      companylogo: require("./assets/images/CA.png"),
       date: "September 2022 - September 2023",
       desc: "WORK-STUDY PROGRAM AT CREDIT AGRICOLE (FRENCH BANK)",
       descBullets: [

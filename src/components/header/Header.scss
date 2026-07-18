@@ -16,6 +16,12 @@
   color: $textColorDark !important;
 }
 
+.dark-menu .logo,
+.dark-menu .logo:visited,
+.dark-menu .logo-name {
+  color: $textColorDark !important;
+}
+
 .dark-menu li a:hover {
   background-color: $buttonColor !important;
 }

@@ -1,18 +1,18 @@
 {
   "greeting": {
     "username": "Niels Minssen",
-    "title": "Freelance Data Scientist/Engineer",
-    "subTitle": "Computer science engineer specialized in information system and decision support tools. Curious and eager to learn, I constantly gain new skills to stay up to date.",
+    "title": "Data Scientist / Developer",
+    "subTitle": "Data scientist and developer, I turn data into decisions: machine learning models, generative AI (LLM, RAG) and business-ready decision tools.",
     "seeResume" : "See my resume",
     "contactMe" : "Contact me"
   },
   "skillsSection": {
     "title": "Tools",
-    "subTitle": "Data Scientist/Engineer with a hand on this tool palette",
+    "subTitle": "Data Scientist / Developer with a hand on this tool palette",
     "skills": [
-      "📊 Discover insights from Data",
-      "🤖 Develop machine learning models to better the decision making thanks to accurate predictions",
-      "💾 Create and fill Databases as well as managing Data pipelines"
+      "Build and deploy machine learning models for scoring, prediction and NLP",
+      "Design data pipelines and integrate AI (LLM, RAG) into business applications",
+      "Create dashboards and BI tools to support data-driven decisions"
     ]},
     "services":{
       "title" : "Services"
@@ -201,7 +201,7 @@
     "subtitle": "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY"
   },
   "contactInfo": {
-    "title": "Contact Me ☎️",
+    "title": "Contact Me",
     "subtitle": "Discuss a project or just want to say hi? My Inbox is open for all."
   },
   "skillProgress":{

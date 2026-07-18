@@ -1,18 +1,18 @@
 {
   "greeting": {
     "username": "Niels Minssen",
-    "title": "Freelance Data Scientist/Engineer",
-    "subTitle": "Ingénieur en informatique spécialisé en systèmes d'information et outils d'aide à la décision. Curieux et avide de connaissances, j'acquiers constamment de nouvelles compétences pour rester à jour.",
+    "title": "Data Scientist / D\u00e9veloppeur",
+    "subTitle": "Data scientist et développeur, je transforme la donnée en décisions : modèles de machine learning, IA générative (LLM, RAG) et outils de pilotage taillés pour le métier.",
     "seeResume" : "Voir mon CV",
     "contactMe" : "Contactez Moi"
   },
   "skillsSection": {
     "title": "Outils",
-    "subTitle": "Data Scientist/Engineer avec la main sur ces outils",
+    "subTitle": "Data Scientist / D\u00e9veloppeur avec la main sur ces outils",
     "skills": [
-      "📊 Découvrir des insights à partir de données",
-      "🤖 Développer des modèles d'apprentissage automatique pour améliorer la prise de décision",
-      "💾 Construire et alimenter des bases de données tout en gérant des flux (pipelines) de données"
+      "Construire et déployer des modèles de machine learning (scoring, prédiction, NLP)",
+      "Concevoir des pipelines de données et intégrer l'IA (LLM, RAG) dans les applications métier",
+      "Créer des tableaux de bord et outils BI pour accompagner la prise de décision"
     ]
   },
   "servicesSection" : {
@@ -212,7 +212,7 @@
     "subtitle": "J'AIME PARLER DE MOI-MÊME ET DE LA TECHNOLOGIE"
   },
   "contactInfo": {
-    "title": "Contactez-moi ☎️",
+    "title": "Contactez-moi",
     "subtitle": "Vous voulez discuter d'un projet ou simplement dire bonjour ? Ma boîte de réception est ouverte à tous."
   },
   "skillProgress":{

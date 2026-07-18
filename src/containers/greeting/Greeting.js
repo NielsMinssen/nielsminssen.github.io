@@ -6,26 +6,19 @@ import DatabaseAnimation from "../../assets/lottie/data_base_no_background_mauve
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
+import CVDownloadButton from "../../components/CVDocument/CVDownloadButton";
 import { illustration, greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
-import { useTranslation } from 'react-i18next'; // Import the useTranslation hook
+import { useTranslation } from 'react-i18next';
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
-  const { t, i18n  } = useTranslation(); // Use the useTranslation hook
-
-  let linkToCV;
-  if (i18n.language === 'en') {
-    linkToCV = greeting.resumeLink;
-  } else if (i18n.language === 'fr') {
-    linkToCV = greeting.cvLink;
-  }
+  const { t } = useTranslation();
 
   if (!greeting.displayGreeting) {
     return null;
   }
 
-  // Use t('translationKey') to access translations
   return (
     <Fade bottom duration={1000} distance="40px">
       <div className="greet-main" id="greeting">
@@ -48,14 +41,8 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text={t("greeting.contactMe")} href="#contact" /> 
-                {greeting.resumeLink && (
-                  <Button
-                    text={t("greeting.seeResume")} 
-                    newTab={true}
-                    href={linkToCV}
-                  />
-                )}
+                <Button text={t("greeting.contactMe")} href="#contact" />
+                <CVDownloadButton />
               </div>
             </div>
           </div>
