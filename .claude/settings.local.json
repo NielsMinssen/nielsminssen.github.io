@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(npx react-scripts:*)",
-      "Bash(grep -rn \"55198b\\\\|#8c43ce\\\\|purple\\\\|violet\" /c/Users/niels/Documents/nielsminssen.github.io/src/ --include=*.js --include=*.jsx --include=*.scss --include=*.css)",
-      "Bash(grep -oP [0.d+,s*0.d+,s*0.d+ /c/Users/niels/Documents/nielsminssen.github.io/src/assets/lottie/handWaiting.json)"
-    ]
-  }
-}
