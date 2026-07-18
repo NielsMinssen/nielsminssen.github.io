@@ -152,10 +152,14 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
-    { Stack: "Python/R", progressPercentage: "80%" },
-    { Stack: "SQL", progressPercentage: "90%"},
-    { Stack: "Machine learning", progressPercentage: "85%" },
-    { Stack: "SGBD", progressPercentage: "85%" },
+    { Stack: "Python/R", progressPercentage: "90%" },
+    { Stack: "SQL", progressPercentage: "90%" },
+    { Stack: "Machine Learning / Deep Learning", progressPercentage: "85%" },
+    { Stack: "Cloud (AWS / GCP)", progressPercentage: "65%" },
+    { Stack: "MLOps (Docker, MLflow, CI/CD)", progressPercentage: "70%" },
+    { Stack: "LLM / GenAI (RAG, fine-tuning)", progressPercentage: "75%" },
+    { Stack: "Data Engineering (Spark, Airflow)", progressPercentage: "70%" },
+    { Stack: "BI / Data Visualization", progressPercentage: "80%" },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -166,9 +170,32 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Data Scientist et Développeur Logiciel",
+      company: "Credit Agricole du Morbihan",
+      companylogo: require("./assets/images/camorbihan.png"),
+      date: "April 2025 - Present",
+      desc: "VANNES, BRETAGNE, FRANCE",
+      descBullets: [
+        "Building scoring and prediction models (XGBoost, LightGBM, Random Forest) along with descriptive and statistical studies to support business decisions",
+        "Developing internal applications (PHP, Vue.js, HTML, SQL Server) and geomarketing tools with Folium mapping, plus BI dashboards on MicroStrategy",
+        "Integrating Mistral AI into business solutions as part of the Credit Agricole / Mistral partnership"
+      ]
+    },
+    {
+      role: "Développeur Indépendant",
+      company: "Freelance",
+      companylogo: require("./assets/images/freelance.jpg"),
+      date: "October 2023 - March 2025",
+      desc: "INDEPENDENT DEVELOPER",
+      descBullets: [
+        "Building process automation tools and integrating AI into client applications",
+        "Teaching Big Data courses to students"
+      ]
+    },
+    {
       role: "Data Scientist/Engineer",
-      company: "Credit Agricole",
-      companylogo: require("./assets/images/Crédit_Agricole.png"),
+      company: "Credit Agricole Centre France",
+      companylogo: require("./assets/images/cacentrefrance.jpg"),
       date: "September 2022 - September 2023",
       desc: "WORK-STUDY PROGRAM AT CREDIT AGRICOLE (FRENCH BANK)",
       descBullets: [
@@ -186,7 +213,7 @@ const workExperiences = {
         "Implemented data enhancement methods such as association rules and mapping to understand population characteristics in child placement and preoccupying reports",
         "Using predictive models, natural language processing, and visualization methods to analyze and highlight individual histories in placements (python and R)"
       ]
-    }
+    },
   ]
 };
 

@@ -21,8 +21,9 @@
 }
 
 .skills-heading {
-  font-size: 56px;
-  font-weight: 400;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
 }
 .subTitle {
   color: $subTitle;
@@ -31,7 +32,7 @@
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 @media (max-width: 768px) {

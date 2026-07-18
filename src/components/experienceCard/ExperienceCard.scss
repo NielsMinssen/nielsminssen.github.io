@@ -3,21 +3,20 @@
 .experience-card {
   position: relative;
   background-color: $lightBackground2;
-  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
-  border-radius: 10px;
+  border-radius: 8px;
   border: 1px solid $lightBorder1;
+  transition: border-color 0.2s ease;
 }
 
 .experience-card-dark {
   position: relative;
   background-color: $darkBackground;
-  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
-  border-radius: 10px;
+  border-radius: 8px;
   border: 1px solid $lightBorder1;
 }
 
 .experience-card:hover {
-  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+  border-color: #cbd5e0;
 }
 
 .experience-banner {

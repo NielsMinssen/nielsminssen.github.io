@@ -42,8 +42,29 @@
     "display": true,
     "experience": [
       {
+      "role": "Data Scientist et Développeur Logiciel",
+      "company": "Credit Agricole du Morbihan",
+      "date": "April 2025 - Present",
+      "desc": "VANNES, BRETAGNE, FRANCE",
+      "descBullets": [
+        "Building scoring and prediction models (XGBoost, LightGBM, Random Forest) along with descriptive and statistical studies to support business decisions",
+        "Developing internal applications (PHP, Vue.js, HTML, SQL Server) and geomarketing tools with Folium mapping, plus BI dashboards on MicroStrategy",
+        "Integrating Mistral AI into business solutions as part of the Credit Agricole / Mistral partnership"
+      ]
+    },
+    {
+      "role": "Développeur Indépendant",
+      "company": "Freelance",
+      "date": "October 2023 - March 2025",
+      "desc": "INDEPENDENT DEVELOPER",
+      "descBullets": [
+        "Building process automation tools and integrating AI into client applications",
+        "Teaching Big Data courses to students"
+      ]
+    },
+      {
         "role": "Data Scientist/Engineer",
-        "company": "Credit Agricole",
+        "company": "Credit Agricole Centre France",
         "desc": "work-study program at Credit Agricole (French Bank)",
         "date": "September 2022 - September 2023",
         "descBullets": [

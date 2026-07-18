@@ -5,8 +5,9 @@
 }
 
 .experience-heading {
-  font-size: 56px;
-  font-weight: 400;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
 }
 
 .experience-container {
@@ -25,7 +26,7 @@
 
 @media (max-width: 1380px) {
   .experience-heading {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 

@@ -3,26 +3,24 @@
 .main-button {
   background-color: $buttonColor;
   border: solid 1px $buttonColor;
-  color: $textColorDark;
-  font-weight: 700;
+  color: #fff;
+  font-weight: 500;
   width: max-content;
-  padding: 13px 22px;
+  padding: 12px 24px;
   margin-right: 50px;
-  text-transform: uppercase;
-  border-radius: 6px;
+  border-radius: 4px;
   text-align: center;
   text-decoration: none;
   display: block;
   margin-top: 20px;
-  font-size: 1rem;
+  font-size: 0.938rem;
   cursor: pointer;
-  transition: all 0.3s ease-in-out 0s;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 .main-button:hover {
-  background-color: $darkBoxShadow2;
-  color: $buttonColor;
-  transition: all 0.3s ease 0s;
-  transform: translateY(-3px);
+  background-color: $buttonHover;
+  border-color: $buttonHover;
+  color: #fff;
 }
 .project-button {
   display: flex;

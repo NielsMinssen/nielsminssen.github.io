@@ -36,20 +36,21 @@
 }
 
 .greeting-text {
-  font-size: 55px;
-  line-height: 1.1;
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.02em;
   color: $textColor !important;
-  text-align:center;
-  display: inline-block;
-  white-space: nowrap;
+  text-align: center;
   display: flex;
   justify-content: center;
 }
 
 .greeting-text-p {
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 1.6;
   text-align: center;
+  color: $subTitle;
 }
 
 .greeting-image-div > img {
@@ -58,44 +59,16 @@
 }
 
 .wave-emoji {
-  animation-duration: 1.8s;
-  animation-iteration-count: infinite;
-  animation-name: wave;
   display: inline-block;
-  transform-origin: 70% 70%;
-}
-
-@keyframes wave {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(-10deg);
-  }
-  20% {
-    transform: rotate(12deg);
-  }
-  30% {
-    transform: rotate(-10deg);
-  }
-  40% {
-    transform: rotate(9deg);
-  }
-  50% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
 }
 
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
-    font-size: 30px;
+    font-size: 32px;
   }
   .greeting-text-p {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 @media (max-width: 768px) {

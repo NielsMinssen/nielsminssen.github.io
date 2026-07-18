@@ -58,13 +58,17 @@
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;
+  color: $titleColor;
+}
+
+.header .logo:visited {
+  color: $titleColor;
 }
 
 .header .logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
-  font-variant-ligatures: no-common-ligatures;
-  -webkit-font-variant-ligatures: no-common-ligatures;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
   padding: 0 10px;
 }
 
