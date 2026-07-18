@@ -1,0 +1,1 @@
+(self.webpackChunkdeveloperfolio=self.webpackChunkdeveloperfolio||[]).push([[369],{6424:()=>{},5381:()=>{}}]);
